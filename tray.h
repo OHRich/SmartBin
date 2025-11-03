@@ -1,6 +1,6 @@
 #pragma once
 #include <windows.h>
 
-void TrayInit(HINSTANCE hInst);
+void TrayInit(HINSTANCE hInst, HWND hWnd);
 void TrayCleanup();
-#pragma once
+void UpdateTrayIcon(HINSTANCE hInst, bool isFull);
