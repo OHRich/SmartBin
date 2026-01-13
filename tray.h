@@ -3,4 +3,6 @@
 
 void TrayInit(HINSTANCE hInst, HWND hWnd);
 void TrayCleanup();
-void UpdateTrayIcon(HINSTANCE hInst, bool isFull);
+
+void TrayUpdateFromSystem();
+void TrayUpdateTooltip();

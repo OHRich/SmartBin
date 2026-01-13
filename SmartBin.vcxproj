@@ -125,11 +125,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="darkmode.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="settings.cpp" />
     <ClCompile Include="tray.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="darkmode.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="settings.h" />
     <ClInclude Include="tray.h" />
